@@ -170,7 +170,7 @@ header .container ul li a:hover {
 
 /* start landing section */
 .landing {
-  background-image: url(Images/mountain_black-and-white.jpg);
+  background-image: url(../mountain_black-and-white.jpg);
   background-size: cover;
   height: calc(100vh - 68px);
   position: relative;
