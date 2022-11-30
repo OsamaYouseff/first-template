@@ -18,7 +18,7 @@ html {
   --secondColor: #2c4755;
   --sectionPadding: 60px;
   --sectionBackColor: #f6f6f6;
-  --mainDuration:0.3s;
+  --mainDuration: 0.3s;
 }
 /* variable */
 
@@ -170,7 +170,7 @@ header .container ul li a:hover {
 
 /* start landing section */
 .landing {
-  background-image: url(/Images/mountain_black-and-white.jpg);
+  background-image: url(Images/mountain_black-and-white.jpg);
   background-size: cover;
   height: calc(100vh - 68px);
   position: relative;
@@ -509,7 +509,6 @@ header .container ul li a:hover {
   }
 }
 
-
 .contact .info .contact-icons .icons {
   display: inline-block;
 }
@@ -546,7 +545,7 @@ footer {
   padding: 30px;
 }
 
-.footer  {
+.footer {
   color: white;
 }
 .footer span {
