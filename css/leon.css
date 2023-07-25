@@ -12,7 +12,17 @@ html {
   scroll-behavior: smooth;
 }
 
-/* variable */
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Global variables */
 :root {
   --mainColor: #10cab7;
   --secondColor: #2c4755;
@@ -20,7 +30,20 @@ html {
   --sectionBackColor: #f6f6f6;
   --mainDuration: 0.3s;
 }
-/* variable */
+/* Global variables */
+
+
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: var(--mainColor);
+  z-index: 999;
+  border-radius: 5px;
+}
+
 
 header > .container {
   margin: 0 auto;
@@ -170,11 +193,11 @@ header .container ul li a:hover {
 
 /* start landing section */
 .landing {
-  /* background-image: url(../mountain_black-and-white.jpg); */
-  background-image: url(../mountain_black-and-white.jpg);
+  background-image: url(/Images/mountain_black-and-white.jpg);
   background-size: cover;
   height: calc(100vh - 68px);
   position: relative;
+  background-attachment: fixed;
 }
 /* End landing section */
 
